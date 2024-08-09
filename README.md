@@ -43,21 +43,13 @@ Modify the path of the designated input files (listed below) on the personal com
 
 <br/>
 
-`
-form_home = uic.loadUiType("Intro_Real_fin.ui")[0]
-`
+    form_home = uic.loadUiType("Intro_Real_fin.ui")[0]
 
-`
-form_immune = uic.loadUiType("Immune_Dialog.ui")[0]
-`
+    form_immune = uic.loadUiType("Immune_Dialog.ui")[0]
 
-`
-form_CyTOF = uic.loadUiType("CyTOF_Dialog.ui")[0]
-`
-
-`
-form_FACS = uic.loadUiType("FACS_Dialog.ui")[0]
-`
+    form_CyTOF = uic.loadUiType("CyTOF_Dialog.ui")[0]
+    
+    form_FACS = uic.loadUiType("FACS_Dialog.ui")[0]
 
 <br/>
 
