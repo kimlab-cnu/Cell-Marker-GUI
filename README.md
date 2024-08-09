@@ -56,10 +56,10 @@ Modify the path of the designated input files (listed below) on the personal com
     
     form_FACS = uic.loadUiType("FACS_Dialog.ui")[0]
 
-<br/>
 
 You can update the paths of other files by using Ctrl+F to find 'C:/Users/DELL/Desktop/Python/' and modifying it according to your working environment.
 
+<br/>
 
 ## Source of Input files
 The references for immune markers of surface and intracellular can be found in the supplementary data of the manuscript slated for publication. (Not yet published.)
