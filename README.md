@@ -63,3 +63,8 @@ You can update the paths of other files by using Ctrl+F to find 'C:/Users/DELL/D
 
 ## Source of Input files
 The references for immune markers of surface and intracellular can be found in the supplementary data of the manuscript slated for publication. (Not yet published.)
+
+<br/>
+
+## License
+This project is available under the MIT license. See the included LICENSE file.
