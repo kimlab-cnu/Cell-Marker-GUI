@@ -14,7 +14,12 @@ This repository contains the source code for ImapDB, an immune research GUI writ
     
 
 ## ScreenShot
- ![image](ImapDB_mainwindow.png)
+ The program's interface consists of three buttons on the main window: Immune Cell Marker, CyTOF Antibody Panel, and FACS Antibody Panel. When each button is clicked, a dialog box appears that provides information related to the button's name. Within the dialog box, users can select from the listed marker and antibody panel information in the combo box of the dialog and perform a search. 
+
+ <br/>
+ 
+![image](ImapDB_mainwindow.png)
+
 
  <br/>
 
