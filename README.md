@@ -13,11 +13,12 @@ This repository contains the source code for ImapDB, an immune research GUI writ
  <br/>
     
 
-# ScreenShot
- ![image](https://url/image.png)
+## ScreenShot
+ ![image](ImapDB_mainwindow.png)
 
+ <br/>
 
-### Before Running the program
+## Before Running the program
 
 To run the program without errors, the installation of the aforementioned essential libraries is required.
 
@@ -32,4 +33,32 @@ To run the program without errors, the installation of the aforementioned essent
 #### openpyxl
     pip install openpyxl
 
+ <br/>
 
+### File paths in Python
+Modify the path of the designated input files (listed below) on the personal computer in the code.
+-	Several Excel files
+-	Several .ui files
+-	Logo .jpg file
+
+<br/>
+
+`
+form_home = uic.loadUiType("Intro_Real_fin.ui")[0]
+`
+
+`
+form_immune = uic.loadUiType("Immune_Dialog.ui")[0]
+`
+
+`
+form_CyTOF = uic.loadUiType("CyTOF_Dialog.ui")[0]
+`
+
+`
+form_FACS = uic.loadUiType("FACS_Dialog.ui")[0]
+`
+
+<br/>
+
+You can update the paths of other files by using Ctrl+F to find 'C:/Users/DELL/Desktop/Python/' and modifying it according to your working environment.
